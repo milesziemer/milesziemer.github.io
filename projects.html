@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Website</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body id="myBody">
+<span id="myOpenButton" onclick="openNav()" class="open-button">
+    <i class="fa fa-bars" style="font-size: 200%;"></i>
+</span>
+<div id="myMenu" class="menu">
+    <a href="javascript:void(0)" class="close-button" onclick="closeNav()">&times;</a>
+    <a href="index.html">Home</a>
+    <a href="projects.html">Projects</a>
+</div>
+<div id="myOverlay" class="overlay"></div>
+    <header id="myHeader">
+        <h1>MilesZiemer~$/Projects</h1>
+    </header>
+    <h2 class="page-header">
+        <span class="page-header-title">Projects</span>
+        <img src="https://media.giphy.com/media/MXQnyEQwBJ6eTj90L5/giphy.gif" alt="Background" class="page-header-background">
+    </h2>
+    <div class="page-content">
+        <h class="page-about">HowManyPills App (Summer 2019)</h>
+        <p class="page-info">
+            This desktop app was created to give patients who have been perscribed narcotic pills an idea of how many pills people with their similar bmi and age took. I originally coded this in Visual Basic, but put it into C#, believing C# would be more of a learning experience, and would prove more useful in the future. This program uses data from lower extremity surgeries performed at the Anne Arundel Medical Center, and was presented to some of the staff, who implemented the idea into the framework they already used to track perscriptions.
+        </p>
+        <h class="page-about">Aim Videogame (December 2019-)</h>
+        <p class="page-info">
+            This is a demo of the game I am currently developing using the Unreal Engine. Almost all development was done in C++, with slight useage of their Blueprint framework. The game is intended to assist players using a controller improve their aim in first person shooters. The target jumps all around the player, simulating real game situations that may require a player to "flick" and fire. Currently being developed are indicators to assist the player in finding the target if it is out of the field of view and improved player meshes, as well as a timer, score tracker, and start/end game menus.
+            I started this game in C#, building off of what I learned with the HowManyPills app, but soon realized I needed a more robust platform, and switched to UE4 in December 2019.
+        </p>
+        <h class="page-about">This Website (January 2020-)</h>
+        <p class="page-info">
+            This website was built from scratch using html, CSS, JavaScript, and PHP.
+        </p>
+    </div>
+    <script src="webapp.js" charset="utf-8"></script>
+</body>
+
+</html>
