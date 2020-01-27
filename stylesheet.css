@@ -115,18 +115,18 @@ body {
 
 .page-about {
     font-size: 200%;
-    padding-bottom: 5%;
 }
 
 /*body of the page*/
 .page-info {
     font-size: 150%;
+    padding-bottom: 5%;
 }
 
 /*pic of me*/
 .page-pic{
-    width: 75%;
-    height: 75%;
+    width: 40%;
+    height: 40%;
 }
 
 /*Video demos*/
