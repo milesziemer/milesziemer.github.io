@@ -123,6 +123,12 @@ body {
     font-size: 150%;
 }
 
+/*pic of me*/
+.page-pic{
+    width: 75%;
+    height: 75%;
+}
+
 /*Video demos*/
 .page-video {
     width: 75%;
