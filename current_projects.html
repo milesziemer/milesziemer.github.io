@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Website</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body id="myBody">
+<span id="myOpenButton" onclick="openNav()" class="open-button">
+    <i class="fa fa-bars" style="font-size: 200%;"></i>
+</span>
+<div id="myMenu" class="menu">
+    <a href="javascript:void(0)" class="close-button" onclick="closeNav()">&times;</a>
+    <a href="index.html">Home</a>
+    <a href="past_projects.html">Past Projects</a>
+    <a href="current_projects.html">Current Projects</a>
+    <a href="My_Resume1.pdf">Resume</a>
+    <a href="contact.html">Contact</a>
+</div>
+<div id="myOverlay" class="overlay"></div>
+    <header id="myHeader">
+        <h1>MilesZiemer~/CurrentProjects</h1>
+    </header>
+    <h2 class="page-header">
+        <span class="page-header-title">Current Projects</span>
+        <img src="https://media.giphy.com/media/MXQnyEQwBJ6eTj90L5/giphy.gif" alt="Background" class="page-header-background">
+    </h2>
+    <div class="page-content">
+        <h class="page-about">Project Athena</h>
+        <p class="page-info">
+            This is a project for my Machine Learning course. We are designing and building an adversarial machine learning system on top of the Athena framework. The goal is to gain experience creating a machine learning system, and to make sure it can protect against evasion attacks.
+        </p>
+        <h class="page-about">Stock Market Prediction</h>
+        <p class="page-info">
+            This is my senior design project for CSCE at the University of South Carolina. My team will be building a neural network that attempts to predict the future movement of the stock market in certian time blocks. The predictions and user interface will be implemented using Django, and the project will turn into a web application. In theory, we are aiming to get experience with web app development on all levels, however my group and I are very interested in the development of the neural network, and would very much like to make it work.
+        </p>
+    </div>
+    <script src="webapp.js" charset="utf-8"></script>
+</body>
+</html>
